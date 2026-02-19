@@ -1,0 +1,12 @@
+{
+    "[development]": {
+        "requires": {
+            "db": {
+                "credentials": {
+                    "url": ":memory:"
+                },
+                "kind": "sqlite"
+            }
+        }
+    }
+}
