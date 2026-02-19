@@ -1,5 +1,9 @@
 # Extensões Recomendadas - VS Code
 
+## SAP CAP Development
+
+SAP CDS Language Support
+
 ## Ambiente de Desenvolvimento
 
 WSL
