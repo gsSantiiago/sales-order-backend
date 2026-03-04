@@ -16,6 +16,10 @@ REST Client
 
 Rainbow CSV
 
+## Banco de Dados
+
+SQLite
+
 ## Utilitários
 
 Reload

@@ -17,7 +17,7 @@ entity SalesOrderItems {
         price: Decimal(15,2);
 }
 
-entity Customers: managed {
+entity Customers {
     key id: UUID;
         firstName: String(20);
         lastName: String(100);
