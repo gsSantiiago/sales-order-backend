@@ -46,3 +46,15 @@ Content-Type: application/json
 {
     "modifiedBy": "teste"
 }
+
+###
+
+# Buscar todos pedidos maiores ou iguais a 2 milhões
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount ge 2000000
+Content-Type: application/json
+
+###
+
+# Buscar todos pedidos menores ou iguais a 200k
+GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount le 200000
+Content-Type: application/json

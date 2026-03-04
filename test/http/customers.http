@@ -38,3 +38,13 @@ Content-Type: application/json
 {
     "lastName": "Cena"
 }
+
+###
+
+GET http://{{localhost}}/Customers?$filter=not endswith(firstName, '-10254130')
+Content-Type: application/json
+
+###
+
+GET http://{{localhost}}/Customers?$filter=endswith(firstName, '-10254130')
+Content-Type: application/json

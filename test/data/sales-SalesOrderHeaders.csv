@@ -4,7 +4,7 @@ id,customer_id,totalAmount,createdAt,createdBy,modifiedAt,modifiedBy
 23126483-7559-488a-b536-8a3d9f413a65,7629685c-f5bf-4796-82b0-8ab8f7e788ca,21871748.21,2022-03-17T02:00:00.000Z,createdBy.droib@example.net,2001-12-06T02:00:00.000Z,modifiedBy.droib@example.net
 23126484-9227-4dea-80d5-1b5a9a9f5038,7629685c-f5bf-4796-82b0-8ab8f7e788ca,17742414.25,2001-01-10T02:00:00.000Z,createdBy.droic@example.net,2015-10-01T02:00:00.000Z,modifiedBy.droic@example.net
 23126485-2002-485c-93ed-e0038cebab2a,7629685c-f5bf-4796-82b0-8ab8f7e788ca,30774964.18,2015-12-08T02:00:00.000Z,createdBy.droid@example.com,2006-05-23T02:00:00.000Z,modifiedBy.droid@example.com
-23126486-9c92-49ff-ab04-144079bb4966,7629685c-f5bf-4796-82b0-8ab8f7e788ca,11996846.18,2015-08-10T02:00:00.000Z,createdBy.droie@example.org,2005-05-18T02:00:00.000Z,modifiedBy.droie@example.com
+23126486-9c92-49ff-ab04-144079bb4966,7629685c-f5bf-4796-82b0-8ab8f7e788ca,199.18,2015-08-10T02:00:00.000Z,createdBy.droie@example.org,2005-05-18T02:00:00.000Z,modifiedBy.droie@example.com
 23126487-9182-46c5-9cba-26733632450d,7629685c-f5bf-4796-82b0-8ab8f7e788ca,8867014.16,2002-10-26T02:00:00.000Z,createdBy.droif@example.com,2005-01-17T02:00:00.000Z,modifiedBy.droif@example.com
 23126488-df16-4afe-b773-86f9a46b0b92,7629685c-f5bf-4796-82b0-8ab8f7e788ca,27625291.16,2006-02-04T02:00:00.000Z,createdBy.droig@example.net,2004-03-01T02:00:00.000Z,modifiedBy.droig@example.com
 23126489-e87f-4fcb-b9e6-abd048a0733e,7629685c-f5bf-4796-82b0-8ab8f7e788ca,19931451.13,2016-06-07T02:00:00.000Z,createdBy.droih@example.com,2000-10-11T02:00:00.000Z,modifiedBy.droih@example.org
