@@ -3,7 +3,7 @@
 @customerId=713ba437-e869-42aa-b92b-bbc95763f80c
 @productId=778fb29f-15df-49cc-b4eb-73d581fc743a
 
-GET http://{{localhost}}/SalesOrderHeaders?$filter=id eq {{id}}&$expand=items
+GET http://{{localhost}}/SalesOrderHeaders
 Content-Type: application/json
 
 ###
@@ -57,4 +57,16 @@ Content-Type: application/json
 
 # Buscar todos pedidos menores ou iguais a 200k
 GET http://{{localhost}}/SalesOrderHeaders?$filter=totalAmount le 200000
+Content-Type: application/json
+
+###
+
+# Expandindo os items, produtos e customers
+GET http://{{localhost}}/SalesOrderHeaders?$expand=items($expand=product),customer
+Content-Type: application/json
+
+###
+
+# Expandindo os items, produtos, customers e filtrando
+GET http://{{localhost}}/SalesOrderHeaders?$expand=items($expand=product;$filter=quantity le 30),customer
 Content-Type: application/json
