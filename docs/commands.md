@@ -31,8 +31,11 @@ $ yarn dev
 ## 7. Adicionar SAP Cloud SDK
 $ yarn add @sap-cloud-sdk/http-client
 
-## 8. Configurar Padrão de Mensagens de Commit
+## 8. Configurar TypeScript
+$ yarn add -D tsx @cap-js/cds-typer typescript @types/node
+
+## 9. Configurar Padrão de Mensagens de Commit
 $ yarn add -D git-commit-msg-linter
 
-## 9. Gerar Dados de Teste
+## 10. Gerar Dados de Teste
 $ cds add data --records 10 --out test/data
