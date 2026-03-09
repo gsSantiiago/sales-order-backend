@@ -76,3 +76,15 @@ Content-Type: application/json
 # Selecionar somente customer e id do sales order header
 GET http://{{localhost}}/SalesOrderHeaders?$select=id,customer&$expand=customer($select=email)
 Content-Type: application/json
+
+###
+
+# Descobrindo a quantidade de registros
+GET http://{{localhost}}/SalesOrderHeaders/$count
+Content-Type: application/json
+
+###
+
+# Paginando os registros
+GET http://{{localhost}}/SalesOrderHeaders?$skip=0&$top=5
+Content-Type: application/json
