@@ -88,3 +88,9 @@ Content-Type: application/json
 # Paginando os registros
 GET http://{{localhost}}/SalesOrderHeaders?$skip=0&$top=5
 Content-Type: application/json
+
+###
+
+# Buscando dados com $search
+GET http://{{localhost}}/SalesOrderHeaders?$search=droi9&$filter=totalAmount gt 500
+Content-Type: application/json

@@ -48,3 +48,9 @@ Content-Type: application/json
 
 GET http://{{localhost}}/Customers?$filter=endswith(firstName, '-10254130')
 Content-Type: application/json
+
+###
+
+# Buscando com $search
+GET http://{{localhost}}/Customers?$search=firstName2
+Content-Type: application/json
