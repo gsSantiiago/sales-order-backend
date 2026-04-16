@@ -45,3 +45,6 @@ $ yarn tsc --init
 
 ## 12. Compilar TypeScript
 $ yarn tsc
+
+## 13. Gerar Tipos com CDS Typer
+$ npx @cap-js/cds-typer srv
