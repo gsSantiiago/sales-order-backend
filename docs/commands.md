@@ -8,6 +8,9 @@ https://github.com/nvm-sh/nvm
 ### Instalar Versão LTS do Node.js
 $ nvm install --lts
 
+### Usar Versão LTS do Node.js
+$ nvm use --lts
+
 ## 2. Instalar SQLite3
 $ sudo apt install sqlite3
 
@@ -21,6 +24,13 @@ $ cds init
 
 ### Criar projeto em um novo diretório
 $ cds init sales-order-backend
+
+> **Observação:**
+> A partir do CAP v9, o `cds init` pode não gerar o `package.json` automaticamente. Nesse caso, execute:
+>
+> $ cds add nodejs
+>
+> $ yarn add -D @cap-js/sqlite @cap-js/cds-types
 
 ## 5. Instalar Dependências do Projeto
 $ yarn
