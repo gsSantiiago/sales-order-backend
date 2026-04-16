@@ -39,3 +39,9 @@ $ yarn add -D git-commit-msg-linter
 
 ## 10. Gerar Dados de Teste
 $ cds add data --records 10 --out test/data
+
+## 11. Configurar TypeScript (tsconfig.json)
+$ yarn tsc --init
+
+## 12. Compilar TypeScript
+$ yarn tsc
